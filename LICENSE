@@ -5,6 +5,9 @@ The MIT License (MIT)
 
 Copyright (c) 2020-2021 Jean-Patrick Guerrero and contributors.
 
+Contributors:
+2021: Sharpik - Edited to use only 8 positions for inventory (to provide better compatibility with original minetest and mods)
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights

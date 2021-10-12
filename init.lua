@@ -70,8 +70,8 @@ local vec_new, vec_add, vec_mul, vec_eq, vec_round =
 local MAX_FAVS = 6
 local ITEM_BTN_SIZE = 1.1
 
-local INV_SIZE = 36
-local HOTBAR_COUNT = 9
+local INV_SIZE = 32 --36
+local HOTBAR_COUNT = 8 --9
 
 -- Players data interval
 local SAVE_INTERVAL = 600
