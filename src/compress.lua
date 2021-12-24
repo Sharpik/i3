@@ -1,4 +1,4 @@
-local fmt, insert = string.format, table.insert
+IMPORT("fmt", "copy", "insert")
 
 local wood_types = {
 	"acacia_wood", "aspen_wood", "junglewood", "pine_wood",
@@ -262,7 +262,7 @@ local moreblocks_nodes = {
 	"ice",
 }
 
-local colors_moreblocks = table.copy(colors)
+local colors_moreblocks = copy(colors)
 insert(colors_moreblocks, "white")
 
 local moreblocks_mods = {
@@ -316,4 +316,4 @@ for _, v2 in ipairs(v) do
 end
 end
 
-return compressed, _compressed
+i3.compress_groups, i3.compressed = compressed, _compressed
