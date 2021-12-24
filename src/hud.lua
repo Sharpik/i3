@@ -40,6 +40,12 @@ local function init_hud(player)
 			player:hud_set_hotbar_image"i3_hotbar.png"
 		end)
 	end
+	else
+		core.after(0, function()
+			player:hud_set_hotbar_itemcount(i3.settings.hotbar_len)
+			player:hud_set_hotbar_image"i3_hotbar_8slots.png"
+		end)
+	end
 end
 
 local function show_hud(player, data)
